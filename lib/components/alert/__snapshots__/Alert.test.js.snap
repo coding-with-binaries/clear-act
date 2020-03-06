@@ -1,0 +1,813 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders alert with custom icon 1`] = `
+<div
+  className="alert alert-info"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="star"
+          title="Info"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Alert with custom icon
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders alert with multiple items 1`] = `
+<div
+  className="alert alert-success"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="rupee"
+          title="Success"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Alert For Rupees Credited
+      </span>
+    </div>
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="savings"
+          title="Success"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Alert For Savings Achievement
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders app-level danger alert 1`] = `
+<div
+  className="alert alert-danger alert-app-level"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="exclamation-circle"
+          title="Error"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        App Level Danger Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders app-level info alert 1`] = `
+<div
+  className="alert alert-info alert-app-level"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="info-circle"
+          title="Info"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        App Level Info Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders app-level success alert 1`] = `
+<div
+  className="alert alert-success alert-app-level"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="check-circle"
+          title="Success"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        App Level Success Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders app-level warning alert 1`] = `
+<div
+  className="alert alert-warning alert-app-level"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="exclamation-triangle"
+          title="Warning"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        App Level Warning Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders basic alert 1`] = `
+<div
+  className="alert alert-info"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="info-circle"
+          title="Info"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Basic Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders closed alert 1`] = `null`;
+
+exports[`Renders danger alert 1`] = `
+<div
+  className="alert alert-danger"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="exclamation-circle"
+          title="Error"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Danger Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders info alert 1`] = `
+<div
+  className="alert alert-info"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="info-circle"
+          title="Info"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Info Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders multiple paged app-level alerts 1`] = `
+<div
+  className="alerts alert-info"
+>
+  <div
+    className="alerts-pager"
+  >
+    <div
+      className="alerts-pager-control"
+    >
+      <div
+        className="alerts-page-down"
+      >
+        <button
+          className="alerts-pager-button"
+          onClick={[Function]}
+        >
+          <clr-icon
+            role="none"
+            shape="caret left"
+            title="Previous"
+          />
+        </button>
+      </div>
+      <div
+        className="alerts-pager-text"
+      >
+        1
+         / 
+        3
+      </div>
+      <div
+        className="alerts-page-up"
+      >
+        <button
+          className="alerts-pager-button"
+          onClick={[Function]}
+        >
+          <clr-icon
+            role="none"
+            shape="caret right"
+            title="Next"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="alert alert-info alert-app-level"
+  >
+    <div
+      className="alert-items"
+    >
+      <div
+        className="alert-item"
+      >
+        <div
+          className="alert-icon-wrapper"
+        >
+          <clr-icon
+            class="alert-icon"
+            role="none"
+            shape="info-circle"
+            title="Info"
+          />
+        </div>
+        <span
+          className="alert-text"
+        >
+          Info Alert
+        </span>
+      </div>
+    </div>
+    <button
+      aria-label="Close alert"
+      className="close"
+      type="button"
+    >
+      <clr-icon
+        role="none"
+        shape="close"
+      />
+    </button>
+  </div>
+  <div
+    className="alert alert-warning alert-app-level alert-hidden"
+  >
+    <div
+      className="alert-items"
+    >
+      <div
+        className="alert-item"
+      >
+        <div
+          className="alert-icon-wrapper"
+        >
+          <clr-icon
+            class="alert-icon"
+            role="none"
+            shape="exclamation-triangle"
+            title="Warning"
+          />
+        </div>
+        <span
+          className="alert-text"
+        >
+          Warning Alert
+        </span>
+      </div>
+    </div>
+    <button
+      aria-label="Close alert"
+      className="close"
+      type="button"
+    >
+      <clr-icon
+        role="none"
+        shape="close"
+      />
+    </button>
+  </div>
+  <div
+    className="alert alert-danger alert-app-level alert-hidden"
+  >
+    <div
+      className="alert-items"
+    >
+      <div
+        className="alert-item"
+      >
+        <div
+          className="alert-icon-wrapper"
+        >
+          <clr-icon
+            class="alert-icon"
+            role="none"
+            shape="exclamation-circle"
+            title="Error"
+          />
+        </div>
+        <span
+          className="alert-text"
+        >
+          Danger Alert
+        </span>
+      </div>
+    </div>
+    <button
+      aria-label="Close alert"
+      className="close"
+      type="button"
+    >
+      <clr-icon
+        role="none"
+        shape="close"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Renders non-dismissable alert 1`] = `
+<div
+  className="alert alert-info"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="info-circle"
+          title="Info"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Non Dismissable Alert
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders small danger alert 1`] = `
+<div
+  className="alert alert-danger alert-sm"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="exclamation-circle"
+          title="Error"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Small Danger Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders small info alert 1`] = `
+<div
+  className="alert alert-info alert-sm"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="info-circle"
+          title="Info"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Small Info Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders small success alert 1`] = `
+<div
+  className="alert alert-success alert-sm"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="check-circle"
+          title="Success"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Small Success Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders small warning alert 1`] = `
+<div
+  className="alert alert-warning alert-sm"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="exclamation-triangle"
+          title="Warning"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Small Warning Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders success alert 1`] = `
+<div
+  className="alert alert-success"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="check-circle"
+          title="Success"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Success Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders warning alert 1`] = `
+<div
+  className="alert alert-warning"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="exclamation-triangle"
+          title="Warning"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Warning Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;

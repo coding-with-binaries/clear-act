@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders basic button 1`] = `
+<button
+  className="btn"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders disabled button 1`] = `
+<button
+  className="btn"
+  disabled={true}
+>
+  Submit
+</button>
+`;
+
+exports[`Renders flat button 1`] = `
+<button
+  className="btn btn-link"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders info button 1`] = `
+<button
+  className="btn btn-info"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders info outline button 1`] = `
+<button
+  className="btn btn-info-outline"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders inverse button 1`] = `
+<button
+  className="btn btn-inverse"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders outline danger button 1`] = `
+<button
+  className="btn btn-danger-outline"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders outline success button 1`] = `
+<button
+  className="btn btn-success-outline"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders outline warning button 1`] = `
+<button
+  className="btn btn-warning-outline"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders primary button 1`] = `
+<button
+  className="btn btn-primary"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders small button 1`] = `
+<button
+  className="btn btn-sm"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders solid danger button 1`] = `
+<button
+  className="btn btn-danger"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders solid success button 1`] = `
+<button
+  className="btn btn-success"
+>
+  Submit
+</button>
+`;
+
+exports[`Renders solid warning button 1`] = `
+<button
+  className="btn btn-warning"
+>
+  Submit
+</button>
+`;
