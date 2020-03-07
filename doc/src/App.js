@@ -1,7 +1,19 @@
+import '@webcomponents/custom-elements';
 import '@clr/icons';
 import '@clr/icons/shapes/all-shapes';
-import '@webcomponents/custom-elements';
-import { Button, Alerts, Alert, AlertItem } from '@clreact/lib';
+
+import {
+  Accordion,
+  AccordionContent,
+  AccordionDescription,
+  AccordionPanel,
+  AccordionTitle,
+  Alert,
+  AlertItem,
+  Alerts,
+  Button
+} from '@clear-act/lib';
+
 import React from 'react';
 
 function App() {
@@ -20,6 +32,19 @@ function App() {
           <AlertItem>Danger Alert</AlertItem>
         </Alert>
       </Alerts>
+      <Accordion accordionMultiPanel>
+        <AccordionPanel
+          accordionTitle={<AccordionTitle>Item 1</AccordionTitle>}
+          accordionContent={<AccordionContent>Content 1</AccordionContent>}
+          accordionDescription={
+            <AccordionDescription>Description 1</AccordionDescription>
+          }
+        />
+        <AccordionPanel
+          accordionTitle={<AccordionTitle>Item 2</AccordionTitle>}
+          accordionContent={<AccordionContent>Content 2</AccordionContent>}
+        />
+      </Accordion>
     </>
   );
 }

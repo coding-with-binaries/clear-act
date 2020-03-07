@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders accordion with description 1`] = `
+<div
+  className="clr-accordion"
+>
+  <div
+    className="clr-accordion-panel"
+  >
+    <div
+      className="clr-accordion-panel-inactive"
+      role="group"
+    >
+      <div
+        className="clr-accordion-header"
+      >
+        <button
+          className="clr-accordion-header-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="clr-accordion-status"
+          >
+            <clr-icon
+              class="clr-accordion-angle"
+              dir="right"
+              shape="angle"
+            />
+            <span
+              className="clr-accordion-number"
+            />
+            <clr-icon
+              class="clr-accordion-error-icon"
+              shape="exclamation-circle"
+            />
+            <clr-icon
+              class="clr-accordion-complete-icon"
+              shape="check-circle"
+            />
+          </span>
+          <div
+            className="clr-accordion-title"
+          >
+            Accordion Title 1
+          </div>
+          <div
+            className="clr-accordion-description"
+          >
+            Accordion Description 1
+          </div>
+        </button>
+      </div>
+      <div
+        role="region"
+      >
+        <div
+          className="clr-accordion-content"
+          style={
+            Object {
+              "height": "auto",
+            }
+          }
+        >
+          <div
+            className="clr-accordion-inner-content"
+          >
+            Accordion Content 1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="clr-accordion-panel"
+  >
+    <div
+      className="clr-accordion-panel-inactive"
+      role="group"
+    >
+      <div
+        className="clr-accordion-header"
+      >
+        <button
+          className="clr-accordion-header-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="clr-accordion-status"
+          >
+            <clr-icon
+              class="clr-accordion-angle"
+              dir="right"
+              shape="angle"
+            />
+            <span
+              className="clr-accordion-number"
+            />
+            <clr-icon
+              class="clr-accordion-error-icon"
+              shape="exclamation-circle"
+            />
+            <clr-icon
+              class="clr-accordion-complete-icon"
+              shape="check-circle"
+            />
+          </span>
+          <div
+            className="clr-accordion-title"
+          >
+            Accordion Title 2
+          </div>
+          <div
+            className="clr-accordion-description"
+          >
+            Accordion Description 2
+          </div>
+        </button>
+      </div>
+      <div
+        role="region"
+      >
+        <div
+          className="clr-accordion-content"
+          style={
+            Object {
+              "height": "auto",
+            }
+          }
+        >
+          <div
+            className="clr-accordion-inner-content"
+          >
+            Accordion Content 2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders basic accordion 1`] = `
+<div
+  className="clr-accordion"
+>
+  <div
+    className="clr-accordion-panel"
+  >
+    <div
+      className="clr-accordion-panel-inactive"
+      role="group"
+    >
+      <div
+        className="clr-accordion-header"
+      >
+        <button
+          className="clr-accordion-header-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="clr-accordion-status"
+          >
+            <clr-icon
+              class="clr-accordion-angle"
+              dir="right"
+              shape="angle"
+            />
+            <span
+              className="clr-accordion-number"
+            />
+            <clr-icon
+              class="clr-accordion-error-icon"
+              shape="exclamation-circle"
+            />
+            <clr-icon
+              class="clr-accordion-complete-icon"
+              shape="check-circle"
+            />
+          </span>
+          <div
+            className="clr-accordion-title"
+          >
+            Basic Accordion Title 1
+          </div>
+        </button>
+      </div>
+      <div
+        role="region"
+      >
+        <div
+          className="clr-accordion-content"
+          style={
+            Object {
+              "height": "auto",
+            }
+          }
+        >
+          <div
+            className="clr-accordion-inner-content"
+          >
+            Basic Accordion Content 1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="clr-accordion-panel"
+  >
+    <div
+      className="clr-accordion-panel-inactive"
+      role="group"
+    >
+      <div
+        className="clr-accordion-header"
+      >
+        <button
+          className="clr-accordion-header-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="clr-accordion-status"
+          >
+            <clr-icon
+              class="clr-accordion-angle"
+              dir="right"
+              shape="angle"
+            />
+            <span
+              className="clr-accordion-number"
+            />
+            <clr-icon
+              class="clr-accordion-error-icon"
+              shape="exclamation-circle"
+            />
+            <clr-icon
+              class="clr-accordion-complete-icon"
+              shape="check-circle"
+            />
+          </span>
+          <div
+            className="clr-accordion-title"
+          >
+            Basic Accordion Title 2
+          </div>
+        </button>
+      </div>
+      <div
+        role="region"
+      >
+        <div
+          className="clr-accordion-content"
+          style={
+            Object {
+              "height": "auto",
+            }
+          }
+        >
+          <div
+            className="clr-accordion-inner-content"
+          >
+            Basic Accordion Content 2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Renders multi-panel accordion 1`] = `
+<div
+  className="clr-accordion"
+>
+  <div
+    className="clr-accordion-panel"
+  >
+    <div
+      className="clr-accordion-panel-inactive"
+      role="group"
+    >
+      <div
+        className="clr-accordion-header"
+      >
+        <button
+          className="clr-accordion-header-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="clr-accordion-status"
+          >
+            <clr-icon
+              class="clr-accordion-angle"
+              dir="right"
+              shape="angle"
+            />
+            <span
+              className="clr-accordion-number"
+            />
+            <clr-icon
+              class="clr-accordion-error-icon"
+              shape="exclamation-circle"
+            />
+            <clr-icon
+              class="clr-accordion-complete-icon"
+              shape="check-circle"
+            />
+          </span>
+          <div
+            className="clr-accordion-title"
+          >
+            Multi Panel Accordion Title 1
+          </div>
+        </button>
+      </div>
+      <div
+        role="region"
+      >
+        <div
+          className="clr-accordion-content"
+          style={
+            Object {
+              "height": "auto",
+            }
+          }
+        >
+          <div
+            className="clr-accordion-inner-content"
+          >
+            Multi Panel Accordion Content 1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="clr-accordion-panel"
+  >
+    <div
+      className="clr-accordion-panel-inactive"
+      role="group"
+    >
+      <div
+        className="clr-accordion-header"
+      >
+        <button
+          className="clr-accordion-header-button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="clr-accordion-status"
+          >
+            <clr-icon
+              class="clr-accordion-angle"
+              dir="right"
+              shape="angle"
+            />
+            <span
+              className="clr-accordion-number"
+            />
+            <clr-icon
+              class="clr-accordion-error-icon"
+              shape="exclamation-circle"
+            />
+            <clr-icon
+              class="clr-accordion-complete-icon"
+              shape="check-circle"
+            />
+          </span>
+          <div
+            className="clr-accordion-title"
+          >
+            Multi Panel Accordion Title 2
+          </div>
+        </button>
+      </div>
+      <div
+        role="region"
+      >
+        <div
+          className="clr-accordion-content"
+          style={
+            Object {
+              "height": "auto",
+            }
+          }
+        >
+          <div
+            className="clr-accordion-inner-content"
+          >
+            Multi Panel Accordion Content 2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
