@@ -99,6 +99,65 @@ exports[`Renders alert with multiple items 1`] = `
 </div>
 `;
 
+exports[`Renders alert with multiple items using alertItems prop 1`] = `
+<div
+  className="alert alert-success"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="rupee"
+          title="Success"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Alert For Rupees Credited
+      </span>
+    </div>
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="savings"
+          title="Success"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Alert For Savings Achievement
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
 exports[`Renders app-level danger alert 1`] = `
 <div
   className="alert alert-danger alert-app-level"
@@ -283,6 +342,46 @@ exports[`Renders basic alert 1`] = `
         className="alert-text"
       >
         Basic Alert
+      </span>
+    </div>
+  </div>
+  <button
+    aria-label="Close alert"
+    className="close"
+    type="button"
+  >
+    <clr-icon
+      role="none"
+      shape="close"
+    />
+  </button>
+</div>
+`;
+
+exports[`Renders basic alert with alertItems prop 1`] = `
+<div
+  className="alert alert-info"
+>
+  <div
+    className="alert-items"
+  >
+    <div
+      className="alert-item"
+    >
+      <div
+        className="alert-icon-wrapper"
+      >
+        <clr-icon
+          class="alert-icon"
+          role="none"
+          shape="info-circle"
+          title="Info"
+        />
+      </div>
+      <span
+        className="alert-text"
+      >
+        Basic Alert with alertItems prop
       </span>
     </div>
   </div>

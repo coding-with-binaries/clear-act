@@ -11,16 +11,22 @@ import {
   Alert,
   AlertItem,
   Alerts,
-  Button
+  Button,
+  Modal,
+  ModalBody,
+  ModalFooter,
+  ModalTitle
 } from '@clear-act/lib';
-
-import React from 'react';
+import React, { useState } from 'react';
 
 function App() {
+  const [modal, setModal] = useState(false);
+  const openModal = () => setModal(true);
+  const closeModal = () => setModal(false);
   return (
     <>
-      <Button onClick={console.log}>This</Button>
-      <Button onClick={console.log}>That</Button>
+      <Button onClick={openModal}>This</Button>
+      <Button onClick={openModal}>That</Button>
       <Alerts>
         <Alert alertState="info">
           <AlertItem>Info Alert</AlertItem>
@@ -45,6 +51,19 @@ function App() {
           accordionContent={<AccordionContent>Content 2</AccordionContent>}
         />
       </Accordion>
+      <Modal
+        modalOpen={modal}
+        onModalClose={closeModal}
+        modalTitle={<ModalTitle>I have a nice title</ModalTitle>}
+        modalBody={<ModalBody>But not much to say..</ModalBody>}
+        modalFooter={
+          <ModalFooter>
+            <Button primary onClick={closeModal}>
+              Ok
+            </Button>
+          </ModalFooter>
+        }
+      />
     </>
   );
 }
