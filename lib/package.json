@@ -42,7 +42,7 @@
   },
   "scripts": {
     "start": "rollup -c -w",
-    "test": "jest --watch",
-    "build": "jest && rollup -c"
+    "test": "jest",
+    "build": "rollup -c"
   }
 }
