@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "concurrently \"yarn --cwd doc start\" \"yarn --cwd lib start\"",
-    "build": "yarn --cwd lib build && yarn --cwd doc build"
+    "build": "yarn --cwd lib build && yarn --cwd doc build",
+    "test": "yarn --cwd lib test"
   }
 }

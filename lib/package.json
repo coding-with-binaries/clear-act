@@ -42,7 +42,8 @@
   },
   "scripts": {
     "start": "rollup -c -w",
-    "test": "jest --watch",
-    "build": "jest && rollup -c"
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "test": "jest",
+    "build": "yarn lint && rollup -c"
   }
 }
