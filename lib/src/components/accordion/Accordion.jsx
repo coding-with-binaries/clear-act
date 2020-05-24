@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { animated, useSpring } from 'react-spring';
-import { animationConfig, transitionConfig } from '../../helpers/config';
 
 import PropTypes from 'prop-types';
 import cn from 'classnames';
+import { transitionConfig } from '../../helpers/config';
 import { useMeasure } from '../../helpers/hooks/useMeasure';
 
 export const Accordion = React.forwardRef((props, ref) => {

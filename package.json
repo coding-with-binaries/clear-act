@@ -8,6 +8,7 @@
     "concurrently": "^5.1.0"
   },
   "scripts": {
-    "start": "concurrently \"yarn --cwd doc start\" \"yarn --cwd lib start\""
+    "start": "concurrently \"yarn --cwd doc start\" \"yarn --cwd lib start\"",
+    "build": "yarn --cwd lib build && yarn --cwd doc build"
   }
 }
