@@ -27,6 +27,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "7.18.3",
     "eslint-plugin-react-hooks": "2.5.0",
+    "jest": "^26.0.1",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.13.0",
     "rollup": "^1.32.0",
@@ -42,7 +43,8 @@
   },
   "scripts": {
     "start": "rollup -c -w",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
     "test": "jest --watch",
-    "build": "jest && rollup -c"
+    "build": "yarn lint && rollup -c"
   }
 }
