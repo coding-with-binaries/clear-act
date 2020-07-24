@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Basic badge 1`] = `
+<span
+  className="badge"
+>
+  Basic Badge
+</span>
+`;
+
+exports[`Renders Status badges 1`] = `
+Array [
+  <span
+    className="badge badge-info"
+  >
+    Info Badge
+  </span>,
+  <span
+    className="badge badge-success"
+  >
+    Success Badge
+  </span>,
+  <span
+    className="badge badge-warning"
+  >
+    Warning Badge
+  </span>,
+  <span
+    className="badge badge-danger"
+  >
+    Danger Badge
+  </span>,
+]
+`;
