@@ -11,6 +11,7 @@ import {
   Alert,
   AlertItem,
   Alerts,
+  Badge,
   Button,
   Modal,
   ModalBody,
@@ -64,6 +65,12 @@ function App() {
           </ModalFooter>
         }
       />
+      <>
+        <Badge badgeType="info">Info Badge</Badge>
+        <Badge badgeType="success">Success Badge</Badge>
+        <Badge badgeType="warning">Warning Badge</Badge>
+        <Badge badgeType="danger">Danger Badge</Badge>
+      </>
     </>
   );
 }
